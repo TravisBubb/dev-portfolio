@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "icon": {
+      "type": "lucide",
+      "name": "cloud"
+    },
+    "type": "lucide",
+    "text": "Backend & Distributed Systems"
+  },
+  {
+    "id": 2,
+    "icon": {
+      "type": "lucide",
+      "name": "settings"
+    },
+    "type": "lucide",
+    "text": "Low-level & Systems Programming"
+  },
+  {
+    "id": 3,
+    "icon": {
+      "type": "lucide",
+      "name": "bot"
+    },
+    "type": "lucide",
+    "text": "AI Concepts & Infrastructure"
+  },
+  {
+    "id": 4,
+    "icon": {
+      "type": "lucide",
+      "name": "earth"
+    },
+    "text": "United States"
+  }
+]
