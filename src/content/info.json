@@ -25,13 +25,5 @@
     },
     "type": "lucide",
     "text": "AI Concepts & Infrastructure"
-  },
-  {
-    "id": 4,
-    "icon": {
-      "type": "lucide",
-      "name": "earth"
-    },
-    "text": "United States"
   }
 ]
