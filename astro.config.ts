@@ -8,8 +8,6 @@ import spectre from './package/src';
 import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
 
-import netlify from '@astrojs/netlify';
-
 export default defineConfig({
   site: 'https://travisbubb.dev',
   output: 'static',
@@ -48,5 +46,7 @@ export default defineConfig({
       }
     })
   ],
-  adapter: netlify()
+  adapter: node({
+    mode: 'standalone'
+  })
 });
