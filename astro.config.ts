@@ -5,7 +5,6 @@ import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import spectre from './package/src';
 
-import node from '@astrojs/node';
 import { spectreDark } from './src/ec-theme';
 
 export default defineConfig({
@@ -45,8 +44,5 @@ export default defineConfig({
         lang: 'en',
       }
     })
-  ],
-  adapter: node({
-    mode: 'standalone'
-  })
+  ]
 });
